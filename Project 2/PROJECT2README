@@ -1,0 +1,27 @@
+BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I HAVE STRICTLY ADHERED
+TO THE TENURES OF THE OHIO STATE UNIVERSITY’S ACADEMIC INTEGRITY POLICY
+WITH RESPECT TO THIS ASSIGNMENT.
+
+THIS IS THE README FILE FOR PROJECT 2.
+
+Student Name: Harikeshav Rameshkumar
+Time taken: 3 hours
+
+The use of bitwise operations (XOR, rotations) in this project is a good demonstration of how low-level
+operations can be used to manipulate and decrypt data. It shows the importance of binary manipulation
+in cryptography.
+
+First, I used the `break 97` command to place a break point at line 97. Then, I used the `print/x key`
+command to print the key in hexadecimal. Then i used the `continue` command to step through the program
+and see how the value of the `key` variable was changing.
+
+Key entered: 10101010
+Values:
+1. 0x01
+2. 0x02
+3. 0x05
+4. 0x0A
+5. 0x15
+6. 0x2A
+7. 0x55
+8. 0xAA
