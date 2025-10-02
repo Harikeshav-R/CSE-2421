@@ -1,0 +1,16 @@
+10
+Cheese
+Double cheese
+Ham
+Pepperoni
+Anchovies
+Black Olives
+Green Olives
+Onions
+Mushrooms
+Green Peppers
+3
+4
+2 4 6 9
+1
+receipt.txt

@@ -1,0 +1,30 @@
+BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I HAVE STRICTLY ADHERED TO
+THE TENURES OF THE OHIO STATE UNIVERSITY'S ACADEMIC INTEGRITY POLICY WITH
+RESPECT TO THIS ASSIGNMENT.
+THIS IS THE README FILE FOR PROJECT 3.
+
+Your Name: Harikeshav Rameshkumar
+Total amount of time (effort): 5 hours
+
+Short description:
+This project was a good exercise in dynamic memory management and modular programming in C. One of the main challenges was ensuring
+that all the pointers were being passed in between functions without getting confusing. I also found it interesting to break down
+the program into smaller, more manageable functions, which made the code easier to read and debug. The rule of not having more than
+10 lines per function body was tedious but a good practice in writing concise and focused functions.
+
+GDB Usage:
+I used GDB to verify that my program was working correctly. I set a breakpoint at the print_receipt function in get_thispizza.c
+to inspect the values of the variables before the receipt was printed. I ran the program with gdb project3 and then run. When the
+breakpoint was hit, I printed the values of size, count, and the this_pizza array to make sure they were what I expected. For
+example, I used p size and p count to check the pizza size and number of ingredients. I also used p **(this_pizza) to see the
+first ingredient of the pizza. The values were correct, which confirmed that the program was working as expected.
+
+GDB commands:
+gdb project3
+break print_receipt
+run
+p size
+p count
+p **(this_pizza)
+continue
+quit
